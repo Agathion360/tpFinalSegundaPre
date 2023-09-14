@@ -1,0 +1,126 @@
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  .navbar {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 0;
+  }
+  
+  .navbar a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+  }
+  
+  .product-container {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 10px 0;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .product-container .data-container {
+	flex-grow: 1;
+	padding-right: 10px;
+  }
+  
+  .product-container button.add-button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .product-container button.add-button:hover {
+	background-color: #0056b3;
+  }
+ 
+  .pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+  }
+  
+  .pagination button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+	background-color: #0056b3;
+  }
+  
+  
+  .swal2-popup {
+	font-size: 16px;
+  }
+  
+
+
+  nav {
+    background-color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    background-color: #333; 
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+a:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el mouse */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
